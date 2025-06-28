@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#homepage">
+                    <img src="logo.png" class="logo_img" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#homepage">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#specialpage">Special Dish</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menupage">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactpage">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Home page -->
+    <div class="home-img d-flex flex-column justify-content-center text-center" id="homepage">
+        <div data-aos="zoom-in">
+            <h1 class="home-head">“Where Every Bite Tells a Story”</h1>
+            <p class="home-para">We don't just cook. We create. Bold flavors, handpicked ingredients, and culinary
+                craftsmanship come together
+                to give you a dining experience like no other.</p>
+            <div>
+                <button class="btn btn-outline-light btn-lg home-btn">Explore Now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--About page Medium -->
+    <div id="about" class="about-bg d-flex flex-row">
+        <div class="col-lg-6 about" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h1 class="about-head">ABOUT US</h1>
+            <p class="about-para">We are a team of passionate food lovers dedicated to bringing you the best culinary
+                experiences. Our mission is to create delicious, high-quality meals that nourish both body and soul.</p>
+            <button class="btn btn-outline-dark btn-lg about-btn">Learn More</button>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center d-none d-md-block p-4">
+            <img src="about_img.jpg" class="about_img" data-aos="zoom-in-left">
+        </div>
+    </div>
+    <!--Special Dish-->
+    <div id="specialpage" class="special-bg d-flex flex-column justify-content-center text-center ">
+        <div id="special-container" class="container my-5">
+            <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <h1 class="special-head">Special Dish</h1>
+                <p class="special-para">Indulge in our chef's special dish, crafted with the finest ingredients and a
+                    touch
+                    of culinary magic.</p>
+                <button class="btn btn-outline-light btn-lg special-btn">Explore
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div id="menupage" class="menu-section py-5">
+        <div class="container text-center">
+            <h2 class="menu-title mb-4" data-aos="fade-up">Our Menu</h2>
+            <p class="menu-subtitle mb-5" data-aos="fade-up" data-aos-delay="100">Delicious selections made with love
+                and fresh ingredients.</p>
+
+            <div class="row justify-content-center">
+                <!-- Dish Card 1 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in">
+                    <div class="card menu-card shadow-sm">
+                        <img src="Dish1.png" class="card-img-top" alt="Dish 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Maharaja Thali</h5>
+                            <p class="card-text">Served with lemon butter sauce and fresh herbs.</p>
+                            <p class="price">Rs. 399</p>
+                            <button class="btn btn-warning text-white">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dish Card 2 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card menu-card shadow-sm">
+                        <img src="Dish2.webp" class="card-img-top" alt="Dish 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Casserole Bake</h5>
+                            <p class="card-text"> Creamy baked chicken with crispy topping and savory seasonings.</p>
+                            <p class="price">Rs. 299</p>
+                            <button class="btn btn-warning text-white">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dish Card 3 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card menu-card shadow-sm">
+                        <img src="Dish3.webp" class="card-img-top" alt="Dish 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Biryani</h5>
+                            <p class="card-text">Aromatic basmati rice layered with tender spiced chicken.</p>
+                            <p class="price">Rs. 399</p>
+                            <button class="btn btn-warning text-white">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="300">
+                <button class="btn menu-btn">View Full Menu</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <div id="contactpage" class="contact-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4" data-aos="fade-up">Contact Us</h2>
+            <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                Have a question, suggestion, or reservation request? We'd love to hear from you!
+            </p>
+
+            <div class="row align-items-center justify-content-center">
+                <!-- Contact Info Card -->
+                <div class="col-lg-5 mb-4" data-aos="fade-right">
+                    <div class="glass-card p-4 shadow">
+                        <h5><i class="bi bi-geo-alt-fill me-2"></i><strong>Address</strong></h5>
+                        <p>123 Flavor Street, Tasty Town, India</p>
+
+                        <h5><i class="bi bi-telephone-fill me-2"></i><strong>Phone</strong></h5>
+                        <p>+91 98765 43210</p>
+
+                        <h5><i class="bi bi-envelope-fill me-2"></i><strong>Email</strong></h5>
+                        <p>contact@tastehub.in</p>
+
+                        <h5><i class="bi bi-clock-fill me-2"></i><strong>Open Hours</strong></h5>
+                        <p>Mon – Sun: 11:00 AM – 11:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <form class="glass-form p-4 shadow">
+                        <div class="mb-3">
+                            <input type="text" class="form-control custom-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control custom-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea rows="4" class="form-control custom-input" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn-glow">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+
+    <!--customm navbar-->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navbarCollapse = document.getElementById('navbarNav');
+            const navbarToggler = document.querySelector('.navbar-toggler');
+
+            // Collapse navbar when a nav link is clicked (mobile only)
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse)
+                        || new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                    bsCollapse.hide();
+                });
+            });
+
+            // Toggle navbar when the hamburger icon is clicked
+            navbarToggler.addEventListener('click', function () {
+                const isShown = navbarCollapse.classList.contains('show');
+                const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse)
+                    || new bootstrap.Collapse(navbarCollapse, { toggle: false });
+
+                isShown ? bsCollapse.hide() : bsCollapse.show();
+            });
+        });
+    </script>
+
+
+    <!-- AOS (Animate On Scroll) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+.logo_img{
+    width: 50px;
+    height: 50px;
+}
+
+.home-img {
+    height: 100vh;
+    width: 99.2vw;
+    background-image: url('welcomeimg.jpg');
+    background-size: cover;
+}   
+
+.home-head {
+    color: #ffb347;
+    font-size: 56px;
+    font-family: 'playfair display', serif;
+}
+.home-para{
+    color: #f5e6ca;
+    font-size: 17.6px;
+    font-family: 'poppins', sans-serif;
+    line-height: 1.7;
+}
+
+.home-btn{
+    font-family: 'playfair display', serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-head {
+    color: #a52a2a;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.about-para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+.about{
+    padding: 50px 20px;
+}
+
+.about-btn {
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-bg{
+    background-color: #f5f0ea;
+}
+
+.about_img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.about_pad {
+    padding-left: 400px;
+    padding-top: 30px;
+}
+
+/* Special Dish Section Styling */
+#specialpage {
+    min-height: 70vh;
+    background: linear-gradient(135deg, #ff6f91, #ff9472);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+.special-head {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.special-para {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    line-height: 1.7;
+}
+
+.special-btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.special-btn:hover {
+    background-color: white;
+    color: #ff6f91;
+}
+
+.menu-section {
+    background-color: #fff7f0;
+}
+
+.menu-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #a52a2a;
+}
+
+.menu-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.menu-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-card .card-body {
+    padding: 20px;
+}
+
+.menu-card .card-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.menu-card .card-text {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.menu-card .price {
+    font-weight: bold;
+    color: #a52a2a;
+    font-size: 1.2rem;
+}
+
+.menu-btn {
+    display: inline-block;
+}
+
+/* ADD TO CART BUTTON - Unique Style */
+.btn-cart {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-cart:hover {
+    background: linear-gradient(135deg, #ff5e62, #ff9966);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 94, 98, 0.4);
+}
+
+.menu-btn {
+    background: linear-gradient(135deg, #3a8bfd, #6a5acd);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.menu-btn:hover {
+    background: linear-gradient(135deg, #6a5acd, #3a8bfd);
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(106, 90, 205, 0.4);
+}
+
+/* Section Background */
+.contact-section {
+    background: linear-gradient(to right, #fff1eb, #ace0f9);
+    padding: 80px 0;
+}
+
+/* Typography */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #c0392b;
+}
+
+.section-subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Glass card */
+.glass-card,
+.glass-form {
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+.glass-card:hover,
+.glass-form:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Inputs */
+.custom-input {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: none;
+    padding: 12px;
+    transition: 0.3s ease;
+    font-size: 1rem;
+}
+
+.custom-input:focus {
+    outline: none;
+    border: 1px solid #ff7e5f;
+    box-shadow: 0 0 0 4px rgba(255, 126, 95, 0.2);
+}
+
+/* Glowing Gradient Button */
+.btn-glow {
+    background: linear-gradient(135deg, #ff6a88, #ff99ac);
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-glow::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.3), transparent 60%);
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.btn-glow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 106, 136, 0.4);
+}
+
+.btn-glow:hover::after {
+    opacity: 1;
+    animation: pulse 1.2s ease-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.4;
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.about_bg_img {
+    background-image: url('about_img.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
