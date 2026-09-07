@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #FAF5EB;
+    color: #141615;
+    overflow-x: hidden;
+  }
+
+  /* Custom smooth scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #FAF5EB;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #C1DBCB;
+    border-radius: 5px;
+    border: 2px solid #FAF5EB;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #163E2D;
+  }
+}
+
+@layer components {
+  .gold-gradient-text {
+    @apply bg-gradient-to-r from-[#D4A359] via-[#F4E2A6] to-[#D4A359] bg-clip-text text-transparent;
+  }
+
+  .green-gradient-bg {
+    @apply bg-gradient-to-br from-[#163E2D] via-[#113023] to-[#0A1B13];
+  }
+
+  .glass-card-dark {
+    @apply bg-[#163E2D]/80 backdrop-blur-md border border-[#D4A359]/20 shadow-warm-lg;
+  }
+
+  .glass-card-light {
+    @apply bg-white/80 backdrop-blur-md border border-[#FAF5EB] shadow-warm-sm;
+  }
+
+  .gold-border-glow {
+    @apply border border-[#D4A359]/30 transition-all duration-300 hover:border-[#D4A359] hover:shadow-gold-glow;
+  }
+}
+
+/* Custom pattern overlay */
+.bg-leaf-pattern {
+  background-color: #FAF5EB;
+  background-image: radial-gradient(#D4A359 0.75px, transparent 0.75px), radial-gradient(#163E2D 0.75px, #FAF5EB 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
